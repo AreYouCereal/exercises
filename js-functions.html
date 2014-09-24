@@ -2,7 +2,9 @@
    
    <html>
 <head>
-
+function makeUppercase() {
+document.form1.outstring.value = document.form1.instring.value.toUpperCase();
+}
     </head>
     <body>
 
@@ -23,9 +25,19 @@ var doubleIt = function (x) {
 };
 doubleIt(8);
 
+{
 var greet = function (name) {
   alert("Welcome, " + name);
 };
 greet('Bob');
+
+{
+var greet = function (name) {
+  alert("Welcome, " + name);
+};
+greet('Bob');
+var string = 'Bob';
+console.log(string.toUpperCase());
+};
     </body>
 </html>
