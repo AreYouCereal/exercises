@@ -1,0 +1,59 @@
+container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+.header {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+border: solid;
+  border-color: red;
+  background-color: red;
+}
+/* hint! you have to contain the floated children elements. */
+
+
+.logo {
+	/* hint! */
+	float: left;
+border: solid;
+  border-color: black;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.navigation {
+	/* hint! */
+	float: right;
+  border: solid;
+  border-color: orange;
+  background-color: orange;
+  margin: 0 auto;
+}
+
+.sidebar {
+	float:left;
+	height:300px;
+	width: 250px;
+border: solid;
+  border-color: yellow;
+  background-color: yellow;
+}
+
+.main-content {
+	float:left;
+	height:300px;
+	width: 964px;
+  border: solid;
+  border-color: #668B8B;
+  background-color: #668B8B;
+  margin: 0 auto;
+}
+
+
+.footer {
+	clear: both;
+  background-color: blue;
+}
