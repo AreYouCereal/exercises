@@ -1,0 +1,60 @@
+/* ---------------------------------------------------------- */
+/* Float Examples for MakerSquare Front-End Class ----------- */
+/* created by Elyse Holladay @elyseholladay ----------------- */
+/* ---------------------------------------------------------- */
+
+/* Example 11 */
+
+.header {
+		float: left;
+	width: 100%;
+	margin: 0 auto;
+  border-color: #E68A2E;
+  background-color: #E68A2E;
+}
+
+.logo {
+	/* hint! */
+	float: left;
+  border-color: #FF5050
+;
+  background-color: #FF5050
+;
+  margin: 0 auto;
+}
+
+.navigation {
+	/* hint! */
+	float: right;
+	overflow: auto;
+border-color: #E64848;
+  background-color: #E64848;
+  margin: 0 auto;
+}
+
+.main-content {
+	clear: both;
+	margin: 0 auto;
+	height: 1400px;
+}
+/* hint! */
+
+.post {
+	clear: both;
+	float: right;
+	height: 300px;
+}
+/* hint! */
+
+.image {
+	clear: both;
+	float: left;
+	height: 150px;
+	width: 150px;
+	padding-right: 40px;
+}
+
+.post_excerpt {
+	padding-right: 20px;
+
+}
