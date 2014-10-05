@@ -1,0 +1,67 @@
+
+.grid {
+  background: purple;
+  padding: 1em;
+}
+
+.container {
+  padding: 1em;
+  border: 2px dashed rgba(255,255,255,0.3);
+  color: white;
+  font-family: Helvetica;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.row {
+  border 2px solid black;
+  margin-bottom: 1em;
+}
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.column {
+  border: 1px solid white;
+  padding: 1em;
+  float: left;
+}
+
+.column.full {
+  width: 100%
+}
+
+.column.half {
+  width: 50%
+}
+.column.third {
+  width: 33.3%
+}
+
+.column.fourth {
+  width: 25%
+}
+
+.column.two-thirds {
+  width: 66%;
+}
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+  .grid {background: black}
+.column {
+  float: left;
+}
