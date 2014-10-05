@@ -1,0 +1,85 @@
+.grid {
+	background: #4b8498;
+	width: 1060px;
+	padding: 1em;
+}
+
+.container {
+	padding: 1em;
+	width: 1024px;
+	height: 300px;
+	border: 2px dashed;
+	color: white;
+	font-family: arial;
+}
+
+.column {
+  border: 1px solid white;
+  padding: 1em;
+  float: left;
+  margin-bottom:10px;
+  
+}
+
+
+.row: {
+	margin-bottom: 30px;
+	border: 1px;
+	color: red;
+	margin-bottom:10px;
+	
+}
+
+.full {
+	width: 968px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom:10px;
+	
+}
+
+.half {
+	width: 458px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom:10px;
+	
+}
+
+.third {
+	width: 287px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom:10px;
+	
+}
+
+.fourth {
+	width: 202px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom:10px;
+	
+}
+
+.two-thirds {
+	width: 629px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom:10px;
+	
+}
+
+@ media screen {
+	body {
+		min-width: 40em;
+	}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
